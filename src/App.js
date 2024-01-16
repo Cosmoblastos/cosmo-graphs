@@ -65,7 +65,7 @@ function App() {
   return <div className="container">
     <div className="top-margin"/>
     <div className="logo-container">
-      <img className="logo" src={'/logo.png'} />
+      <img className="logo" src={'/cosmo-graphs/logo.png'} />
     </div>
     <div className="title">
       <div className="title-f-div">
@@ -125,14 +125,14 @@ function App() {
       <div className='floating-menu-buttons-container'>
         <a
           className="download-button" 
-          href="datos_cosmomision_2.json" 
+          href="/cosmo-graphs/datos_cosmomision_2.json" 
           download={getFileName()} 
           onClick={confirmDownload("JSON")}>
             Descargar datos (JSON)
         </a>
         <a 
           className="download-button db-secondary" 
-          href="datos_cosmomision_2.csv" 
+          href="/cosmo-graphs/datos_cosmomision_2.csv" 
           onClick={confirmDownload("CSV")}>
             Descargar datos (CSV)
         </a>
