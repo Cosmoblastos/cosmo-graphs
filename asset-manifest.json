@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/cosmo-graphs/static/css/main.4863464e.css",
-    "main.js": "/cosmo-graphs/static/js/main.2d4f0307.js",
+    "main.js": "/cosmo-graphs/static/js/main.1f73cea6.js",
     "index.html": "/cosmo-graphs/index.html",
     "main.4863464e.css.map": "/cosmo-graphs/static/css/main.4863464e.css.map",
-    "main.2d4f0307.js.map": "/cosmo-graphs/static/js/main.2d4f0307.js.map"
+    "main.1f73cea6.js.map": "/cosmo-graphs/static/js/main.1f73cea6.js.map"
   },
   "entrypoints": [
     "static/css/main.4863464e.css",
-    "static/js/main.2d4f0307.js"
+    "static/js/main.1f73cea6.js"
   ]
 }
