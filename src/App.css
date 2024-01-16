@@ -1,38 +1,144 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+    text-align: center;
+    font-weight: 100;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.title-f-div {
+    width: 50%;
 }
 
-.App-link {
-  color: #61dafb;
+.graph-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.line-graph {
+    min-width: 40%;
+    height: 300px;
+    padding: 30px;
+}
+
+.metrics { 
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.metrics-f-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.metric-tag {
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 30px;
+}
+
+.logo-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.top-margin {
+    height: 50px;
+}
+
+.floating-menu {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+}
+
+.floating-menu-buttons-container {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+.download-button {
+    background-color: #064789;
+    width: fit-content;
+    padding: 13px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.download-button:hover {
+    background-color: #0367CB;
+}
+
+.db-secondary {
+    background-color: #FF8811;
+}
+
+.db-secondary:hover {
+    background-color: #FF9A35;
+}
+
+
+@media screen and (max-width: 767px) {
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .title-f-div {
+        width: 90%;
+    }
+
+    .line-graph {
+        min-width: 90%;
+    }
+
+    .metric-tag {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    .download-button {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    .line-graph {
+        padding: 20px 10px;
+    }
+
+    .graph-container {
+        margin: 0;
+        padding: 0;
+    }
 }
